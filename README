@@ -1,0 +1,33 @@
+Mobile Security & Privacy (MoSP) Siafu
+======================================
+
+MoSP Siafu is an extension of the Siafu Open Source Context Simulator.
+ http://siafusimulator.sourceforge.net/
+The extension has been developed for indoor simulation as sub-scenario
+simulation of MoSP simulation using the Mobile Security & Privacy Simulator.
+ http://bhenne.github.com/MoSP/   https://github.com/bhenne/MoSP
+MoSP simulator and the Siafu MoSP addition have be created by staff and
+students at the Distributed Computing & Security Group, 
+Leibniz Universität Hannover, Germany.
+ http://www.dcsec.uni-hannover.de/
+
+Beside the authors of the Siafu Open Source Context Simulator, these people
+(alphabetical order) have worked on the code:
+
+ Benjamin Henne (staff, maintainer)
+ Paul Salomon (student)
+ Christian Szongott (staff)
+
+ Contact: henne@domain.tld domain.tld=dcsec.uni-hannover.de
+
+The MoSP Siafu simulator and the Cafe1 demo simulation are free software: 
+you can redistribute it and/or modify it under the terms of the 
+GNU General Public License as published by the Free Software Foundation, 
+either version 2 of the License, or (at your option) any later version.
+
+These are distributed in the hope that it will be useful, but WITHOUT ANY 
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along 
+with this program. If not, see <http://www.gnu.org/licenses/>. 

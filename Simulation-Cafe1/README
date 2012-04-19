@@ -1,0 +1,26 @@
+Mobile Security & Privacy (MoSP) Siafu - Demo Simulation Cafe1
+==============================================================
+MoSP Siafu is an extension of the Siafu Open Source Context Simulator.
+The extension has been developed for indoor simulation as sub-scenario
+simulation of MoSP simulation using the Mobile Security & Privacy Simulator.
+MoSP simulator and the Siafu MoSP addition have be created by staff and
+students at the Distributed Computing & Security Group, 
+Leibniz Universität Hannover, Germany in 2012-03.
+
+The Cafe1 demo simulation simulates a cafe with 2 stories and 80 seats.
+People that enter the cafe take a seat and stay for while. While staying
+people can get infected by other people. The simulation itself does
+not add any people and the simulation starts in paused mode. To run the
+simulation with people and infection try the demo client:
+
+ The demo client runs simulation for 60 simulated seconds/ticks,
+ adds a healthy person, runs for 30 seconds, adds an infected person,
+ and runs for 1200 seconds. The healthy gets infected within this time.
+ 
+   usage: python python-demo-client/client.py 
+
+Authors of Cafe1 demo simulation in alphabetical order are:
+  Benjamin Henne, Paul Salomon, Christian Szongott
+
+Contact: henne@domain.tld domain.tld=dcsec.uni-hannover.de
+

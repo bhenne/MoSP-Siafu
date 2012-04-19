@@ -71,7 +71,7 @@
 	<target name="jar" depends="build, initRelease">
 		<jar compress="true" jarfile="release/${jarFile}">
 			<manifest>
-				<attribute name="Main-Class" value="de.nec.nle.siafu.control.Siafu" />
+				<attribute name="Main-Class" value="de.uni_hannover.dcsec.siafu.control.Siafu" />
 				<attribute name="Class-Path" value="lib/windows/swt/swt.jar lib/osIndependent/commons-collections-3.2.jar lib/osIndependent/commons-configuration-1.3.jar lib/osIndependent/commons-lang-2.2.jar lib/osIndependent/commons-logging-1.1.jar" />
 				<attribute name="Sealed" value="false" />
 			</manifest>

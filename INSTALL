@@ -1,0 +1,33 @@
+How to start - try the demo
+---------------------------
+
+1) Build MoSP Siafu and Cafe1 simulation
+
+   cd Siafu
+   ant
+   cd ..
+   cd Simulation-Cafe1
+   ant
+   cd ..
+
+2) Run Cafe1 MoSP simulation
+
+   cd Siafu/release
+   # for Linux 64bit arch
+   bash runLinux64.sh --simulation=../../Simulation-Cafe1/release/Simulation-Cafe1.jar &
+   # or use another run script; 
+   # other systems than Linux do not need the "--simulation=", 
+   # only use simulation jar path as parameter
+   cd ../..
+
+3) Start the demo client
+
+   cd Simulation-Cafe1
+   cd python-demo-client
+   python client.py
+
+   The demo client runs simulation for 60 simulated seconds/ticks,
+   adds a healthy person, runs for 30 seconds, adds an infected person,
+   and runs for 1200 seconds. The healthy gets infected within this time.
+
+That's it.
